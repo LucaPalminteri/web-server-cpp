@@ -2,7 +2,7 @@
 #include "BindingSocket.hpp"
 
 
-
+// Constructor
 HDE::BindingSocket::BindingSocket(int domain, int service, int protocol, int port, u_long)
 {
     // Establish network connection
@@ -10,6 +10,7 @@ HDE::BindingSocket::BindingSocket(int domain, int service, int protocol, int por
     test_connection(get_connection());
 }
 
+// Definition of connect_to_network virtual function
 int HDE::BindingSocket::connect_to_network(int sock, struct sockaddr_in address)
 {
     return bind(sock, (struct sockaddr *)&address, sizeof(address));

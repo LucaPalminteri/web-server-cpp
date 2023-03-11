@@ -1,0 +1,1 @@
+Personal project to create a web server in C++. Creating the sockets for the communication between host/cliens and server.
