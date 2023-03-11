@@ -1,6 +1,7 @@
 Personal project to create a web server in C++. Creating the sockets for the communication between host/cliens and server.
 
-I followed the post in Medium from Skrew Everything https://medium.com/from-the-scratch/http-server-what-do-you-need-to-know-to-build-a-simple-http-server-from-scratch-d1ef8945e4fa. I highly recommend to read it to understand the basics of an HTTP Server.
+I followed the post in Medium from Skrew Everything [HTTP Server: Everything you need to know to Build a simple HTTP server from scratch](https://medium.com/from-the-scratch/http-server-what-do-you-need-to-know-to-build-a-simple-http-server-from-scratch-d1ef8945e4fa). I highly recommend to read it to understand the basics of an HTTP Server.
+Also I watched some videos form Eric O Meehan [YouTube Channel](https://www.youtube.com/@EricOMeehan)
 
 | Port Number | Service Name | Transport Protocol | Description |
 | --- | --- | --- | --- |
